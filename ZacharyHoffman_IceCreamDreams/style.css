@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400&display=swap');
+
+body {
+    margin: 0 0 0 0;
+}
+
+h1 {
+    font-family: 'Passion One', cursive;
+    font-weight: 400;
+    margin: 0 auto;
+    font-size: 36px;
+}
+
+h2 {
+    font-family: 'Passion One', cursive;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 36px;
+    line-height: 24px;
+    margin: 0px;
+}
+
+.address-heading {
+    font-family: 'Passion One', cursive;
+    font-weight: 100;
+}
+
+header {
+    background-color: #C3504D;
+}
+
+.header-list {
+    margin: 2em 1.5em 0 0;
+    top: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    display: none;
+    margin: 3em 1em 0 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 1em 0 1em;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration:underline;
+}
+
+footer {
+    text-align: center;
+    background-color: #3E7E95;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #FFFFFF;
+}
+
+footer p {
+    margin: 0px;
+    padding: 24px 0 24px 0;
+}
+
+address .address-heading {
+    font-family: 'Passion One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: #C3504D;
+    padding: 12px 0px 12px 0px;
+}
+
+address {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #F9FCE7;
+    color: #C3504D;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.heading img {
+    width: 100px;
+    padding-bottom: 15px
+}
+
+.logo {
+    display: inline-block;
+    padding: 1em 1em 1em 2em;
+}
+
+.logo img {
+    height: 45px;
+    width: 45px;
+}
+
+.locations {
+    background-color: #F9FCE7;
+    text-align: center;
+}
+
+.locations-text {
+    color: #C3504D;
+    margin: 0;
+}
+
+.location {
+    display: inline-block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border: 4px solid #C3504D;
+}
+
+.flavors {
+    text-align: center;
+    background-color: #3E7E95;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.flavor-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flavor {
+    font-family: 'Passion One', cursive;
+    font-size: 24x;
+    margin: 0 20px 0 20px;
+}
+
+.flavor > p {
+    margin-top: 0;
+    padding-bottom: 40px;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.flavor-img {
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 4px solid #F9FCE7;
+    width: 125px;
+    height: 125px; 
+}
+
+.burger-menu button {
+    margin: 1.5em 1.5em 0 0;
+    height: 45px;
+    width: 45px;
+    background-image: url("IceCreamDreamsImages/menu-button.svg");
+    border: none;
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+    background-position: center center;
+    background-color: transparent;
+    color: transparent;
+}
+
+.general-location {
+    background-color: #C3504D;
+}
+
+.general-location .address-heading, .specific-location p {
+    margin-left: 20px;
+    margin-top: -6px;
+}
+
+.order-online {
+    background-color: #C3504D;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.order-online h2 {
+    text-align: center;
+}
+
+.text-box-div {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    text-align: justify;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+}
+
+.text-box-div label {
+    display: inline;
+    width: 100%;
+}
+
+.text-box-div input {
+    display: inline;
+    height: 28px;
+    width: 100%;
+    border: none;
+    margin-top: 2px;
+    padding: 0;
+}
+
+.checkboxes {
+    padding-top: 5px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 18px;
+}
+
+.checkboxes p {
+    text-align: left;
+}
+
+.checkbox-div {
+    display: flex;
+    text-align: justify;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.checkbox-div input {
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+.checkbox-div label {
+    align-self: center;
+}
+
+#pickup-day option, #pickup-location option {
+    text-align: justify;
+}
+
+.text-box-div label {
+    display: inline;
+    width: 100%;
+}
+
+.pickup-locations, .pickup-days {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.pickup-locations label, .pickup-days label {
+    float: left;
+}
+
+#pickup-location, #pickup-day {
+    margin-top: 2px;
+    width: 100%;
+    text-align: center;
+    height: 28px;
+}
+
+.submit-div {
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 54px;
+    /* height: 44px; */
+}
+
+.submit-div input {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    width: 100%;
+    height: 44px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    color: #C3504D;
+}
+
+
+@media screen and (min-width: 550px) {
+    nav ul {
+        display: block;
+    }
+
+    h1 {
+        font-size: 124px;
+        display: inline;
+    }
+
+    h2 {
+        font-size: 72px;
+        padding-bottom: 40px;
+    }
+
+    .heading {
+        flex-direction: row;
+        padding-bottom: 40px;
+        gap: 40px;
+    }
+
+    .heading h1 {
+        margin-left: 0px;
+    }
+
+    .heading img {
+        width: 200px;
+        padding-left: 8em;
+    }
+
+    .burger-menu button {
+        display: none;
+    }
+
+    .flavor-img {
+        width: 225px;
+        height: 225px; 
+        margin-bottom: 10px;
+    }
+
+    .flavors {
+        text-align: center;
+        background-color: #3E7E95;
+        color: #FFFFFF;
+        padding-top: 20px;
+    }
+
+    .flavor {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    #featured-flavors {
+        margin-bottom: 20px;
+    }
+
+    .locations {
+        padding-bottom: 20px;
+    }
+
+    .location {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 40px;
+    }
+
+    .locations-text {
+        margin-bottom: 20px;
+    }
+
+    .flex-text-boxes {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+
+    .text-box-div {
+        width: 20%;
+        margin: 0 0 25px 0;
+    }
+
+    .text-box-div label {
+        float: left;
+    }
+
+    .checkboxes p {
+        padding-left: 27.7%;
+    }
+
+    .flex-checkboxes {
+        display: flex;
+        justify-content: center;
+    }
+
+    .checkbox-div {
+        width: 22.5%; 
+    }
+
+    .flex-select-boxes {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .pickup-days, .pickup-locations {
+        width: 20%;
+        margin: 0 0 25px 0;
+    }
+
+    .submit-div {
+        align-self: left;
+        width: 10%;
+        margin: 0;
+        padding-left: 29.7%;
+        padding-top: 0;
+    }
+
+}
